@@ -100,13 +100,17 @@ strong {
 	border-radius: 30%;
 	font-family: "Dosis", sans-serif;
 	color: white;
-	padding: 5px 20px;
 }
 .load, .follow {
 	background-color: #322E39;
 }
+.load {
+	padding: 2px 5px;
+	font-family: "Dosis", sans-serif;
+}
 .read {
 	background-color: #AFACB6;
+	padding: 5px 20px;
 }
 
 .pull-left {

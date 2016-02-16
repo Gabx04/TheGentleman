@@ -102,7 +102,7 @@ header .gentleman {
 	color: gray;
 	font-weight: bold;
 }
-.nav-header a:hover {
+.nav-projects a:hover {
 	color: #EE2465;
 	text-decoration: none;
 }
@@ -112,10 +112,15 @@ header .gentleman {
 .proyectos img {
 	width: 100%;
 }
-.titulo-proyecto {
+.titulo-proyecto h4 {
 	font-family: "Dosis", sans-serif;
-	font-size: 10px;
-	color: gray;
+	font-size: 14px;
+	color: #888;
+	font-weight: bold;
+}
+.descripcion-proyecto {
+	font-family: "Open sans", sans-serif;
+	font-size: 9px;
 }
 /*-------------------------------------------*/
 /*-------------------------------------------*/
