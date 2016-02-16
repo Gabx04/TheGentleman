@@ -1,13 +1,122 @@
-/*--------------------Header-----------------------*/
-header h1 {
-	
+.container {
+	width: 800px;
 }
+
+nav {
+	font-family: "Dosis", sans-serif;
+}
+h2, h4 {
+	font-family: "Dosis", sans-serif;
+	color: #322E39;
+}
+h2 {
+	font-size: 24px;
+	line-height: 90%;
+}
+h4 {
+	font-size: 20px;
+}
+/*--------------------Header-----------------------*/
 header span {
+	letter-spacing: -3px;
+}
+header .the {
 	font-family: "Dosis", sans-serif;
 	font-weight: 300;
 }
-/*-------------------------------------------*/
-/*-------------------------------------------*/
+header .gentleman {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+}
+.nav-header {
+	margin: auto;
+	padding-top: 25px;
+
+}
+.nav-header ul {
+	list-style-type: none;
+	float: right;
+	white-space: nowrap;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+}
+.nav-header li {
+	position: relative;
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	justify-content: space-around;
+	margin: 0 15px;
+}
+.nav-header a{
+	color: white;
+	font-weight: bold;
+}
+.nav-header a:hover {
+	color: #EE2465;
+	text-decoration: none;
+}
+/*-------------------News------------------------*/
+.photonews {
+	margin: 5px;
+	background-image: url(../img/header.png);
+}
+.news img {
+	width: 100%
+}
+.articulo {
+	font-weight: "Open Sans", sans-serif;
+	font-size: 10px;
+	color: gray;
+	line-height: 150%;
+}
+.news button {
+	margin: 15px 0;
+}
+
+/*-------------------Portfolio------------------------*/
+#portfolio h2 {
+	margin-left: 40px;
+}
+.nav-projects ul {
+	list-style-type: none;
+	float: left;
+	white-space: nowrap;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+}
+.nav-projects li {
+	position: relative;
+	float: left;
+	text-decoration: none;
+	font-size: 10px;
+	justify-content: space-around;
+	margin: 0 5px;
+}
+.nav-projects li:first-child {
+	margin-left: 0;	
+}
+.nav-projects a{
+	color: gray;
+	font-weight: bold;
+}
+.nav-header a:hover {
+	color: #EE2465;
+	text-decoration: none;
+}
+.proyectos{
+	margin: 5px;
+}
+.proyectos img {
+	width: 100%;
+}
+.titulo-proyecto {
+	font-family: "Dosis", sans-serif;
+	font-size: 10px;
+	color: gray;
+}
 /*-------------------------------------------*/
 /*-------------------------------------------*/
 /*-------------------------------------------*/
